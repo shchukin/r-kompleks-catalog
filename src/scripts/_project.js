@@ -37,4 +37,19 @@
     });
 
 
+    $('.project__stage').magnificPopup({
+        delegate: '.preview--stage',
+        type: 'image',
+        tLoading: 'Loading image #%curr%...',
+        mainClass: 'mfp-img-mobile',
+        gallery: {
+            enabled: true,
+            navigateByImgClick: true,
+            preload: [0,1],
+            tCounter: '<span class="mfp-counter-index">%curr%/%total%</span>'
+        }
+
+    });
+
+
 })(jQuery);
