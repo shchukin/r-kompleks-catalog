@@ -1,0 +1,33 @@
+.preview {
+    display: block;
+    cursor: pointer;
+}
+    .preview__image {
+        vertical-align: top;
+        width: 100%;
+        height: auto;
+        background-color: var(--image-fallback);
+        transition: filter var(--transition-hover);
+    }
+
+    .preview:hover .preview__image {
+        filter: brightness(110%) contrast(105%);
+    }
+
+
+
+.preview--stage {
+
+}
+    .preview--stage .preview__image {
+        aspect-ratio: 4/3;
+        object-fit: cover;
+    }
+
+.preview--navigation {
+
+}
+    .preview--navigation .preview__image {
+        aspect-ratio: 4/3;
+        object-fit: cover;
+    }
