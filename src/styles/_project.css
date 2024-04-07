@@ -40,8 +40,8 @@
             .project__gallery .swiper-button-next {
                 right: 0;
             }
-                .project__stage .swiper-button-prev::after,
-                .project__stage .swiper-button-next::after {
+                .project__gallery .swiper-button-prev::after,
+                .project__gallery .swiper-button-next::after {
                     color: #FFFFFF;
                     text-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
                 }
