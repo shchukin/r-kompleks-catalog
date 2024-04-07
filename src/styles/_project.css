@@ -1,4 +1,5 @@
 .project {
+    margin-top: 40px;
     --project-padding: 24px;
     --project-cell-padding: 12px var(--project-padding);
 }
@@ -77,6 +78,7 @@
 @media (width < 740px) {
 
     .project {
+        margin-top: 32px;
         --project-cell-padding: 12px 0;
     }
 
