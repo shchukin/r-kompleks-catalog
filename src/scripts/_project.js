@@ -16,7 +16,7 @@
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
-            /* not really sure why */
+            /* Из документации: */
             freeMode: true,
             watchSlidesProgress: true,
         });
@@ -40,7 +40,8 @@
 
     }
 
+    $(document).ready(init);
+    $(window).on('resize', init);
 
-    init()
 
 })(jQuery);
