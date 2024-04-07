@@ -1,5 +1,6 @@
 :root {
-    --font: "Raleway", sans-serif;
+    --font-primary: "Raleway", sans-serif;
+    --font-secondary: "Arial", sans-serif;
     --body-font-size: 16px;
     --body-line-height: 24px;
     /*--ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);*/
