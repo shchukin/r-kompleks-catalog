@@ -179,8 +179,56 @@
                 display: none;
             }
 
+            .project__stage .swiper-navigation {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+                .project__stage .swiper-button-prev,
+                .project__stage .swiper-button-next {
+                    margin-top: 0;
+                    position: static;
+                    width: auto;
+                    height: auto;
+                    padding: 12px 5px 20px;
+                }
+
+                .project__stage .swiper-button-prev {
+                    padding-left: 30px;
+                }
+
+                .project__stage .swiper-button-next {
+                    padding-right: 30px;
+                }
+
+                    .project__stage .swiper-button-prev::before,
+                    .project__stage .swiper-button-next::before {
+                        content: "";
+                        display: block;
+                        width: 20px;
+                        height: 8px;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                    }
+
+                    .project__stage .swiper-button-prev::before {
+                        background-image: url("../vectors/mobile-swiper-prev.svg");
+                    }
+
+                    .project__stage .swiper-button-next::before {
+                        background-image: url("../vectors/mobile-swiper-next.svg");
+                    }
+
+
+                    .project__stage .swiper-button-prev::after,
+                    .project__stage .swiper-button-next::after {
+                        display: none;
+                    }
+
+
         .project__data {
-            margin-top: 40px;
+            margin-top: 16px;
         }
             .project__heading {
                 font-size: 24px;
