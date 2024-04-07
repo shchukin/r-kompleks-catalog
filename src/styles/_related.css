@@ -1,0 +1,36 @@
+.related {
+    margin-top: 85px;
+}
+    .related__heading {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 32px;
+        line-height: 38px;
+        color: #005AA0;
+    }
+
+    .related__list {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 24px;
+    }
+
+
+
+@media (width < 740px) {
+
+    .related {
+        margin-top: 40px;
+    }
+        .related__heading {
+            font-size: 24px;
+            line-height: 28px;
+        }
+
+        .related__list {
+            margin-top: 24px;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px 20px;
+        }
+}

@@ -1,0 +1,86 @@
+.project-preview {
+
+}
+    .project-preview__photo-link {
+        display: block;
+    }
+        .project-preview__photo {
+            display: block;
+            width: 100%;
+            height: auto;
+            background-image: var(--image-fallback);
+            transition: filter var(--transition-hover);
+        }
+
+        .project-preview__photo-link:hover .project-preview__photo {
+            filter: brightness(110%) contrast(105%);
+        }
+
+    .project-preview__title {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+        .project-preview__title-link {
+            display: block;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+            color: inherit;
+            transition: color var(--transition-hover);
+            text-decoration: none;
+        }
+
+        .project-preview__title-link:hover {
+            color: #005AA0;
+        }
+
+
+
+@media (width < 740px) {
+
+    .project-preview {
+
+    }
+        .project-preview__photo-link {
+            /*display: block;*/
+        }
+            .project-preview__photo {
+                /*display: block;*/
+                /*width: 100%;*/
+                /*height: auto;*/
+                /*background-image: var(--image-fallback);*/
+                /*transition: filter var(--transition-hover);*/
+            }
+
+            .project-preview__photo-link:hover .project-preview__photo {
+                /*filter: brightness(110%) contrast(105%);*/
+            }
+
+        .project-preview__title {
+            /*margin-top: 0;*/
+            /*margin-bottom: 0;*/
+            /*font-weight: inherit;*/
+            /*font-size: inherit;*/
+            /*line-height: inherit;*/
+        }
+            .project-preview__title-link {
+                /*display: block;*/
+                /*padding-top: 10px;*/
+                /*padding-bottom: 10px;*/
+                /*font-weight: 500;*/
+                font-size: 16px;
+                line-height: 19px;
+                /*color: inherit;*/
+                /*transition: color var(--transition-hover);*/
+                /*text-decoration: none;*/
+            }
+
+            .project-preview__title-link:hover {
+                /*color: #005AA0;*/
+            }
+}

@@ -6,8 +6,8 @@
     /*--ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);*/
     --transition-hover: 100ms ease;
     /*--transition-show: 1200ms var(--ease-out-quint);*/
-    /*--image-fallback: #F3F5F4;*/
-    /*--container-padding: 40px;*/
+    --image-fallback: #F3F5F4;
+    --container-padding: 40px;
     --action-color: #005AA0;
     --action-color-hover: #4290CB;
     /*--input-border: #B3B3B3;*/
@@ -18,7 +18,7 @@
     /*--error: #FF0033;*/
 }
 
-@media (350px <= width < 600px) {
+@media (350px <= width < 740px) {
     :root {
         --container-padding: 24px;
     }
