@@ -1,11 +1,21 @@
 (function ($) {
 
+    let swiperNavigation;
+    let swiperStage;
+
     function init() {
 
+        console.log(swiperNavigation)
+        if (swiperNavigation) { /* Если это не первая инициализация */
+            swiperNavigation.destroy();
+        }
+        if (swiperStage) { /* Если это не первая инициализация */
+            swiperStage.destroy();
+        }
 
         /* Навигация (инициализируется первой) */
 
-        const swiperNavigation = new Swiper('.project__navigation .swiper', {
+        swiperNavigation = new Swiper('.project__navigation .swiper', {
             spaceBetween: 17,
             slidesPerView: 5,
             slidesPerGroup: 5,
@@ -24,7 +34,7 @@
 
         /* Сцена (инициализируется после) */
 
-        const swiperStage = new Swiper('.project__stage .swiper', {
+        swiperStage = new Swiper('.project__stage .swiper', {
             spaceBetween: 10,
             mousewheel: {
                 forceToAxis: true,
@@ -41,7 +51,9 @@
     }
 
     $(document).ready(init);
-    $(window).on('resize', init);
+    $(window).on('resize', function () {
+        setTimeout(init, 2000);
+    });
 
 
 })(jQuery);
