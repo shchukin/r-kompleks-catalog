@@ -10,6 +10,7 @@
 @import url("_container.css");
 @import url("_footer.css");
 
+@import url("_nobr.css");
 @import url("_button.css");
 /*@import url("_input.css");*/
 /*@import url("_choice.css");*/
@@ -24,4 +25,6 @@
 /*@import url("_login.css");*/
 @import url("_project-preview.css");
 @import url("_related.css");
+@import url("_project.css");
+@import url("_simpler-font.css");
 

@@ -1,8 +1,10 @@
 :root {
-    --font-primary: "Raleway", sans-serif;
-    --font-secondary: "Arial", sans-serif;
+    --font-main: "Raleway", sans-serif;
+    --font-simpler: "Arial", sans-serif;
     --body-font-size: 16px;
     --body-line-height: 24px;
+    --artile-font-size: 18px;
+    --artile-line-height: 25px;
     /*--ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);*/
     --transition-hover: 100ms ease;
     /*--transition-show: 1200ms var(--ease-out-quint);*/
@@ -18,14 +20,17 @@
     /*--error: #FF0033;*/
 }
 
-@media (350px <= width < 740px) {
+@media (width < 740px) {
     :root {
+        --artile-font-size: 16px;
+        --artile-line-height: 22px;
         --container-padding: 24px;
     }
-}
 
-@media (width < 350px) {
-    :root {
-        --container-padding: 16px;
+
+    @media (width < 350px) {
+        :root {
+            --container-padding: 16px;
+        }
     }
 }

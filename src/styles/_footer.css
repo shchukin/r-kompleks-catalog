@@ -34,7 +34,7 @@
                 .footer__contacts {
                     margin-top: 38px;
                     font-size: 18px;
-                    font-family: var(--font-secondary);
+                    font-family: var(--font-simpler);
                 }
 
                 .footer__site-link {
@@ -127,7 +127,7 @@
 
                     }
                         .footer__years {
-                            font-family: var(--font-secondary);
+                            font-family: var(--font-simpler);
                         }
 
                 .footer__developer {
