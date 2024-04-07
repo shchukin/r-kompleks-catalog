@@ -10,8 +10,7 @@
     gap: calc(2 * var(--project-padding));
 }
     .project__gallery {
-        height: 200px;
-        background: purple;
+
     }
 
     .project__data {
