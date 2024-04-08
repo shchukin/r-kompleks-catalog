@@ -1,5 +1,5 @@
 .project {
-    margin-top: 40px;
+    margin-top: 32px;
     --project-padding: 24px;
     --project-cell-padding: 12px var(--project-padding);
 }
