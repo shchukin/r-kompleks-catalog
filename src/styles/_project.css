@@ -42,8 +42,25 @@
             }
                 .project__gallery .swiper-button-prev::after,
                 .project__gallery .swiper-button-next::after {
-                    color: #FFFFFF;
-                    text-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+                    text-indent: 200%;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: contain;
+                    filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 50%));
+                }
+
+                .project__gallery .swiper-button-prev::after {
+                    background-image: url("../vectors/chevron-left.svg");
+                }
+
+                .project__gallery .swiper-button-next::after {
+                    background-image: url("../vectors/chevron-right.svg");
+                }
+
+                .project__gallery .swiper-button-disabled {
+                    pointer-events: auto;
                 }
 
             /* Stage */
@@ -63,7 +80,8 @@
             }
                 .project__stage .swiper-button-prev::after,
                 .project__stage .swiper-button-next::after {
-                    font-size: 40px;
+                    width: 50px;
+                    height: 50px;
                 }
 
             /* Navigation */
@@ -79,7 +97,8 @@
             }
                 .project__navigation .swiper-button-prev::after,
                 .project__navigation .swiper-button-next::after {
-                    font-size: 24px;
+                    width: 20px;
+                    height: 20px;
                 }
 
 
