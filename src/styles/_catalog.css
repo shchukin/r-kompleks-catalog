@@ -43,7 +43,7 @@
         }
 
         .catalog__list {
-            margin-top: 24px;
+            margin-top: 32px;
             grid-template-columns: repeat(2, 1fr);
             gap: 24px 20px;
         }
