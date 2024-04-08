@@ -145,6 +145,16 @@ gulp.task('favicon', function () {
 });
 
 
+// Fonts: copy
+
+gulp.task('fonts', function () {
+    return gulp.src('src/fonts/**/*')
+        .pipe(plumber())
+        .pipe(gulp.dest('build/fonts/'))
+        ;
+});
+
+
 // Temp: copy
 
 gulp.task('temp', function () {
@@ -281,7 +291,7 @@ gulp.task('lint', function () {
 
 
 gulp.task('default', function (fn) {
-    run('clean', 'manifest', 'favicon', 'temp', 'content', 'images', 'markups', 'layouts', 'vendors', 'scripts', 'symbols', 'styles', 'lint', fn);
+    run('clean', 'manifest', 'favicon', 'fonts', 'temp', 'content', 'images', 'markups', 'layouts', 'vendors', 'scripts', 'symbols', 'styles', 'lint', fn);
 });
 
 
