@@ -1,5 +1,5 @@
 .catalog {
-    margin-top: 85px;
+    margin-top: 80px;
 }
     .catalog__heading {
         margin-top: 0;
@@ -11,11 +11,11 @@
     }
 
     .catalog__navigation {
-        margin-top: 30px;
+        margin-top: 40px;
     }
 
     .catalog__list {
-        margin-top: 56px;
+        margin-top: 40px;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 24px;
@@ -38,6 +38,10 @@
             line-height: 28px;
         }
 
+        .catalog__navigation {
+            margin-top: 25px;
+        }
+
         .catalog__list {
             margin-top: 24px;
             grid-template-columns: repeat(2, 1fr);
@@ -45,6 +49,6 @@
         }
 
         .catalog__load-more {
-            margin-top: 40px;
+            margin-top: 30px;
         }
 }
