@@ -18,7 +18,7 @@
     /*--disabled-background: #F6F6F6;*/
     /*--disabled-color: #999999;*/
     /*--error: #FF0033;*/
-    --header-desktop-height: 126px;
+    --header-height: 126px;
 }
 
 @media (width < 740px) {
@@ -27,7 +27,7 @@
         --artile-font-size: 16px;
         --artile-line-height: 22px;
         --container-padding: 24px;
-        --header-desktop-height: 70px;
+        --header-height: 70px;
     }
 
     @media (width < 350px) {

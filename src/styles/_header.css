@@ -21,9 +21,14 @@
             display: flex;
             justify-content: space-between;
             gap: 40px;
-            height: var(--header-desktop-height);
+            height: var(--header-height);
             align-items: center;
             border-bottom: 2px solid #E5F4FF;
+            transition: height 300ms ease;
+        }
+
+        .page-scrolled .header__strut {
+            height: 90px;
         }
             .header__logo {
                 display: block;
@@ -61,10 +66,14 @@
                 /*display: flex;*/
                 /*justify-content: space-between;*/
                 gap: 14px;
-                /*height: var(--header-desktop-height);*/
+                height: var(--header-height);
                 /*align-items: center;*/
                 /*padding-top: 12px;*/
                 /*border-bottom: 2px solid #E5F4FF;*/
+            }
+
+            .page-scrolled .header__strut {
+                height: var(--header-height);
             }
                 .header__logo {
                     /*width: 456px;*/
