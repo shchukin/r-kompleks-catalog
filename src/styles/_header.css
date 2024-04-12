@@ -5,6 +5,7 @@
     top: 0;
     right: 0;
     background-color: #FFFFFF;
+    border-bottom: 2px solid #E5F4FF;
 }
 
 @media (740px <= width < 1200px) {
@@ -23,7 +24,6 @@
             gap: 40px;
             height: var(--header-height);
             align-items: center;
-            border-bottom: 2px solid #E5F4FF;
             transition: height 300ms ease;
         }
 

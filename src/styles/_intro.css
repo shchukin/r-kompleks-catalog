@@ -1,7 +1,8 @@
 .intro {
     margin-top: 40px;
     min-height: 604px;
-    padding: 100px 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
