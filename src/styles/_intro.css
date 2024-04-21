@@ -23,13 +23,13 @@
     .intro__heading {
         margin-top: 0;
         margin-bottom: 0;
-        max-width: 873px;
+        font-weight: bold;
         font-size: 62px;
-        line-height: 73px;
+        line-height: 56px;
     }
 
     .intro__slogan {
-        margin-top: 40px;
+        margin-top: 12px;
         max-width: 490px;
         font-size: 24px;
         line-height: 28px;
@@ -62,15 +62,14 @@
         .intro__heading {
             /*margin-top: 0;*/
             /*margin-bottom: 0;*/
-            max-width: 284px;
             font-size: 24px;
-            line-height: 28px;
+            line-height: 24px;
         }
 
         .intro__slogan {
-            margin-top: 20px;
-            /*max-width: 490px;*/
+            margin-top: 11px;
+            max-width: 280px;
             font-size: 16px;
-            line-height: 19px;
+            line-height: 16px;
         }
 }
