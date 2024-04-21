@@ -34,8 +34,14 @@
         thumbs: {
             swiper: swiperNavigation, // связь с навигацией
         },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
     });
 
+
+    /* Модалка */
 
     $('.project__stage').magnificPopup({
         delegate: '.preview--stage',
