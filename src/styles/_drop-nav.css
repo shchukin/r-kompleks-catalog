@@ -20,8 +20,8 @@
             border-bottom: 1px solid currentColor;
             font-family: inherit;
             font-weight: 500;
-            font-size: 20px;
-            line-height: 24px;
+            font-size: 16px;
+            line-height: 20px;
             color: inherit;
             text-align: left;
             text-decoration: none;
@@ -44,29 +44,29 @@
         }
 
 
-        @media (width < 1400px) {
-            .drop-nav__list {
-                gap: 28px;
-            }
+        /*@media (width < 1400px) {*/
+        /*    .drop-nav__list {*/
+        /*        gap: 28px;*/
+        /*    }*/
 
-            .drop-nav__link {
-                font-size: 18px;
-                line-height: 22px;
-            }
-        }
+        /*    .drop-nav__link {*/
+        /*        font-size: 18px;*/
+        /*        line-height: 22px;*/
+        /*    }*/
+        /*}*/
 
 
 
-        @media (width < 1300px) {
-            .drop-nav__list {
-                gap: 24px;
-            }
+        /*@media (width < 1300px) {*/
+        /*    .drop-nav__list {*/
+        /*        gap: 24px;*/
+        /*    }*/
 
-            .drop-nav__link {
-                font-size: 17px;
-                line-height: 22px;
-            }
-        }
+        /*    .drop-nav__link {*/
+        /*        font-size: 17px;*/
+        /*        line-height: 22px;*/
+        /*    }*/
+        /*}*/
 
 
 
