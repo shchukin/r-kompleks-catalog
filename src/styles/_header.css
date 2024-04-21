@@ -5,6 +5,7 @@
     top: 0;
     right: 0;
     background-color: #FFFFFF;
+    transition: box-shadow 300ms ease;
 }
 
 @media (740px <= width < 1200px) {
@@ -27,15 +28,21 @@
         }
             .header__logo {
                 display: block;
-                width: 456px;
+                width: 466px;
                 height: 46px;
-                background-image: url("../images/header-logo@2x.png");
+                background-image: url("../images/header-logo.png");
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-position: center center;
                 text-indent: 200%;
                 white-space: nowrap;
                 overflow: hidden;
+            }
+
+            @media (min-resolution: 2dppx) {
+                .header__logo {
+                    background-image: url("../images/header-logo@2x.png");
+                }
             }
 
             .header__site-link {

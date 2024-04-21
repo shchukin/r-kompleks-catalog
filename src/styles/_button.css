@@ -5,7 +5,7 @@
     padding: 11px 18px;
     min-width: 100px;
     background-color: var(--action-color);
-    border-radius: 6px;
+    border-radius: 0;
     font-family: inherit;
     font-weight: 600;
     font-size: 18px;
@@ -27,17 +27,6 @@
 .button:active {
     translate: 0 1px;
     transition: none;
-}
-
-
-
-.button--inverted {
-    background-color: #FFFFFF;
-    color: var(--action-color);
-}
-
-.button--inverted:hover {
-    background-color: #EEEEEE;
 }
 
 @media (width < 740px) {

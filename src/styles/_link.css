@@ -58,12 +58,11 @@
 
 
 
-.link--inverted-text {
-    text-decoration-color: transparent;
+.link--inherit {
     color: inherit;
 }
 
-.link--inverted-text:hover {
-    text-decoration-color: currentColor;
+.link--inherit:hover {
+    text-decoration-color: transparent;
 }
 
