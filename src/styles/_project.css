@@ -222,6 +222,11 @@
                             background-color: #BDBDBD;
                             border-radius: 50%;
                             box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
+                            transition: background-color var(--transition-hover);
+                        }
+
+                        .project__stage .swiper-pagination-bullet:hover::after {
+                            background-color: #FFFFFF;
                         }
 
                         .project__stage .swiper-pagination-bullet-active::after {
