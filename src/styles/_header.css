@@ -1,61 +1,64 @@
 .header {
-    position: fixed;
-    z-index: 100;
-    left: 0;
-    top: 0;
-    right: 0;
-    background-color: #FFFFFF;
-    transition: box-shadow 300ms ease;
+    height: var(--header-height);
 }
-
-@media (740px <= width < 1200px) {
-
-    .header {
-        position: absolute;
+    .header__detachable {
+        position: fixed;
+        z-index: 100;
+        left: 0;
+        top: 0;
+        right: 0;
+        background-color: #FFFFFF;
+        transition: box-shadow 300ms ease;
     }
-}
 
-    .header__wrap {
+    @media (740px <= width < 1200px) {
 
-    }
-        .header__strut {
-            display: flex;
-            justify-content: space-between;
-            gap: 40px;
-            height: var(--header-height);
-            align-items: center;
-            transition: height 300ms ease;
+        .header__detachable {
+            position: absolute;
         }
-            .header__logo {
-                display: block;
-                width: 466px;
-                height: 46px;
-                background-image: url("../images/header-logo.png");
-                background-size: contain;
-                background-repeat: no-repeat;
-                background-position: center center;
-                text-indent: 200%;
-                white-space: nowrap;
-                overflow: hidden;
-            }
-
-            @media (min-resolution: 2dppx) {
-                .header__logo {
-                    background-image: url("../images/header-logo@2x.png");
-                }
-            }
-
-            .header__site-link {
-                /*margin-top: 12px; !* В дизайне, но не по центру -- выключаемф *!*/
-            }
-
-
-.page-scrolled .header {
-    box-shadow: 0 2px 0 #E5F4FF;
-}
-    .page-scrolled .header__strut {
-        height: var(--header-collapsed-height);
     }
+
+        .header__wrap {
+
+        }
+            .header__strut {
+                display: flex;
+                justify-content: space-between;
+                gap: 40px;
+                height: var(--header-height);
+                align-items: center;
+                transition: height 300ms ease;
+            }
+                .header__logo {
+                    display: block;
+                    width: 466px;
+                    height: 46px;
+                    background-image: url("../images/header-logo.png");
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    text-indent: 200%;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
+
+                @media (min-resolution: 2dppx) {
+                    .header__logo {
+                        background-image: url("../images/header-logo@2x.png");
+                    }
+                }
+
+                .header__site-link {
+                    /*margin-top: 12px; !* В дизайне, но не по центру -- выключаемф *!*/
+                }
+
+
+    .page-scrolled .header__detachable {
+        box-shadow: 0 2px 0 #E5F4FF;
+    }
+        .page-scrolled .header__strut {
+            height: var(--header-collapsed-height);
+        }
 
 
 
@@ -64,31 +67,34 @@
     .header {
 
     }
-        .header__wrap {
+        .header__detachable {
 
         }
-            .header__strut {
-                gap: 14px;
-                height: var(--header-height);
-            }
+            .header__wrap {
 
+            }
+                .header__strut {
+                    gap: 14px;
+                    height: var(--header-height);
+                }
+
+                .page-scrolled .header__strut {
+                    height: var(--header-height);
+                }
+                    .header__logo {
+                        width: 170px;
+                        height: 17px;
+                    }
+
+                    .header__site-link {
+
+                    }
+
+
+        .page-scrolled .header__detachable {
+            box-shadow: 0 1px 0 #E5F4FF;
+        }
             .page-scrolled .header__strut {
-                height: var(--header-height);
+
             }
-                .header__logo {
-                    width: 170px;
-                    height: 17px;
-                }
-
-                .header__site-link {
-
-                }
-
-
-    .page-scrolled .header {
-        box-shadow: 0 1px 0 #E5F4FF;
-    }
-        .page-scrolled .header__strut {
-
-        }
 }
