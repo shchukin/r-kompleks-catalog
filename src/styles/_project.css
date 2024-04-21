@@ -16,6 +16,13 @@
 
         }
 
+        @media (740px <= width) {
+
+            .project__stage .swiper-pagination {
+                display: none;
+            }
+        }
+
         .project__navigation {
             margin-top: 24px;
         }
@@ -214,6 +221,7 @@
                             height: 7px;
                             background-color: #BDBDBD;
                             border-radius: 50%;
+                            box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
                         }
 
                         .project__stage .swiper-pagination-bullet-active::after {
