@@ -132,7 +132,7 @@
         }
 
         .project__sub-heading {
-            margin-top: 38px;
+            margin-top: 22px;
             margin-left: calc(-1 * var(--project-padding));
             padding: var(--project-cell-padding);
             font-weight: bold;
@@ -246,53 +246,39 @@
 
 
         .project__data {
-            margin-top: 16px;
+            margin-top: 24px;
         }
             .project__heading {
                 font-size: 24px;
-                line-height: 34px;
+                line-height: 24px;
             }
 
             .project__description {
-                margin-top: 16px;
+                margin-top: 13px;
             }
 
             .project__sub-heading {
+                margin-top: 12px;
                 margin-left: 0;
-                /*font-size: 18px;*/
-                /*line-height: 24px;*/
             }
 
             .project__stats {
-                /*vertical-align: top;*/
                 width: auto;
                 margin-left: 0;
-                /*table-layout: fixed;*/
-                /*border-collapse: collapse;*/
-                /*border-bottom: 1px solid #BDBDBD;*/
-                /*font-weight: 500;*/
-                /*font-size: 16px;*/
-                /*line-height: 19px;*/
-                display: block;
+                table-layout: fixed;
             }
 
                 .project__row {
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    gap: 40px;
-                    /*border-top: 1px solid #BDBDBD;*/
+
                 }
                     .project__param {
-                        display: block;
-                        /*padding: var(--project-cell-padding);*/
-                        /*font-weight: inherit;*/
-                        /*text-align: left;*/
+                        width: 50%;
+                        padding-right: 10px;
                     }
 
                     .project__value {
-                        display: block;
-                        /*padding: var(--project-cell-padding);*/
+                        width: 50%;
+                        padding-left: 10px;
                         text-align: right;
                     }
 }

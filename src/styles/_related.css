@@ -1,5 +1,5 @@
 .related {
-    margin-top: 85px;
+    margin-top: 73px;
 }
     .related__heading {
         margin-top: 0;
@@ -15,6 +15,9 @@
         grid-template-columns: repeat(6, 1fr);
         gap: 24px;
     }
+        .related__item {
+
+        }
 
 
 
@@ -30,7 +33,11 @@
 
         .related__list {
             margin-top: 24px;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             gap: 24px 20px;
         }
+            .related__item:nth-child(n+4) {
+                display: none;
+            }
+
 }
