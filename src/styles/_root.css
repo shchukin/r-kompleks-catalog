@@ -19,6 +19,7 @@
     /*--disabled-color: #999999;*/
     /*--error: #FF0033;*/
     --header-height: 126px;
+    --header-collapsed-height: 90px;
 }
 
 @media (width < 740px) {
@@ -28,6 +29,7 @@
         --artile-line-height: 22px;
         --container-padding: 24px;
         --header-height: 56px;
+        --header-collapsed-height: 56px;
     }
 
     @media (width < 350px) {
