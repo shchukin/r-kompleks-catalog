@@ -87,6 +87,7 @@
 @media (width < 740px) {
 
     .footer {
+        margin-top: 60px;
         position: relative;
     }
         .footer__wrap {

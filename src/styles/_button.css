@@ -44,10 +44,11 @@
     display: flex;
     align-items: center;
     width: fit-content;
-    padding: 17px 28px;
     gap: 10px;
     background-color: #DCDCDC;
-    border-radius: 2px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
     color: #282828;
 }
 
@@ -57,8 +58,8 @@
     .button--load-more::before {
         content: "";
         display: block;
-        width: 24px;
-        height: 24px;
+        width: 18px;
+        height: 18px;
         background-image: url("../vectors/button-load-more.svg");
         background-size: contain;
         background-repeat: no-repeat;
@@ -70,70 +71,41 @@
 @media (width < 740px) {
 
     .button {
-        /*display: block;*/
-        /*width: fit-content;*/
-        /*border: none;*/
         padding: 5px 6px;
-        /*min-width: 100px;*/
-        /*background-color: var(--action-color);*/
         border-radius: 0;
-        /*font-family: inherit;*/
-        /*font-weight: 600;*/
         font-size: 12px;
         line-height: 20px;
-        /*color: #FFFFFF;*/
-        /*text-align: center;*/
-        /*text-decoration: none;*/
-        /*white-space: nowrap;*/
-        /*cursor: pointer;*/
-        /*user-select: none;*/
-        /*transition: background-color var(--transition-hover);*/
     }
 
     .button:hover {
-        /*background-color: var(--action-color-hover);*/
+
     }
 
 
     .button:active {
-        /*translate: 0 1px;*/
-        /*transition: none;*/
+
     }
 
     @media (width < 740px) {
 
         .button {
-            /*padding: 9px 8px;*/
-            /*border-radius: 2px;*/
-            /*font-size: 15px;*/
-            /*line-height: 20px;*/
+
         }
     }
 
 
     .button--load-more {
-        /*display: flex;*/
-        /*align-items: center;*/
-        /*width: fit-content;*/
-        /*padding: 17px 28px;*/
-        /*gap: 10px;*/
-        /*background-color: #DCDCDC;*/
-        /*border-radius: 2px;*/
-        /*color: #282828;*/
+        padding: 8px 14px;
+        font-size: 14px;
+        line-height: 20px;
     }
 
     .button--load-more:hover {
-        /*background-color: #EAEAEA;*/
+
     }
         .button--load-more::before {
-            /*content: "";*/
-            /*display: block;*/
-            /*width: 24px;*/
-            /*height: 24px;*/
-            /*background-image: url("../vectors/button-load-more.svg");*/
-            /*background-size: contain;*/
-            /*background-repeat: no-repeat;*/
-            /*background-position: center;*/
+            width: 16px;
+            height: 16px;
         }
     }
 
