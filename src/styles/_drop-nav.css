@@ -44,32 +44,6 @@
         }
 
 
-        /*@media (width < 1400px) {*/
-        /*    .drop-nav__list {*/
-        /*        gap: 28px;*/
-        /*    }*/
-
-        /*    .drop-nav__link {*/
-        /*        font-size: 18px;*/
-        /*        line-height: 22px;*/
-        /*    }*/
-        /*}*/
-
-
-
-        /*@media (width < 1300px) {*/
-        /*    .drop-nav__list {*/
-        /*        gap: 24px;*/
-        /*    }*/
-
-        /*    .drop-nav__link {*/
-        /*        font-size: 17px;*/
-        /*        line-height: 22px;*/
-        /*    }*/
-        /*}*/
-
-
-
 @media (width < 740px) {
 
     .drop-nav {
@@ -79,10 +53,10 @@
             position: relative;
             display: block;
             width: 100%;
-            padding: 17px 14px;
+            padding: 9px 14px;
             border: 1px solid #000000;
             background-color: transparent;
-            border-radius: 4px;
+            border-radius: 2px;
             font-family: inherit;
             font-weight: 500;
             font-size: 16px;
@@ -95,13 +69,13 @@
                 position: absolute;
                 right: 14px;
                 top: 50%;
-                margin-top: -12px;
+                margin-top: -5px;
                 display: block;
-                width: 24px;
-                height: 24px;
+                width: 14px;
+                height: 10px;
                 background-image: url("../vectors/drop-nav-chevron.svg");
+                background-size: contain;
                 background-repeat: no-repeat;
-                background-size: 24px 24px;
                 background-position: center;
                 transition: transform 200ms ease;
             }
@@ -110,23 +84,18 @@
             display: none;
             margin-top: 11px;
             width: 100%;
-            border: 1px solid #3D8FCD;
+            border: 1px solid #000000;
             padding-top: 10px;
             padding-bottom: 10px;
-            border-radius: 4px;
+            border-radius: 2px;
         }
             .drop-nav__link {
-                /*display: block;*/
                 width: 100%;
                 padding: 9px 14px;
                 border-bottom: none;
-                /*font-weight: 500;*/
                 font-size: 16px;
                 line-height: 20px;
-                color: #3D8FCD;
-                /*text-decoration: none;*/
-                /*white-space: nowrap;*/
-                /*transition: border-bottom-color var(--transition-hover);*/
+                color: inherit;
             }
 
             .drop-nav__link--cancel {
@@ -135,7 +104,7 @@
             }
 
     @keyframes drop-nav {
-        from { opacity: 0; transform: translateY(-20px); }
+        from { opacity: 0; transform: translateY(-10px); }
         to { opacity: 100%; transform: translateY(0); }
     }
 
