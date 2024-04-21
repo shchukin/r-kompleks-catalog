@@ -57,6 +57,8 @@
         height: 90px;
     }
 
+
+
 @media (width < 740px) {
 
     .header {
@@ -74,10 +76,19 @@
                 height: var(--header-height);
             }
                 .header__logo {
-
+                    width: 170px;
+                    height: 17px;
                 }
 
                 .header__site-link {
 
                 }
+
+
+    .page-scrolled .header {
+        box-shadow: 0 1px 0 #E5F4FF;
+    }
+        .page-scrolled .header__strut {
+            height: var(--header-height);
+        }
 }

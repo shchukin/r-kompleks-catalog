@@ -27,7 +27,7 @@
         --artile-font-size: 16px;
         --artile-line-height: 22px;
         --container-padding: 24px;
-        --header-height: 70px;
+        --header-height: 56px;
     }
 
     @media (width < 350px) {
