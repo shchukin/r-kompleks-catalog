@@ -50,10 +50,11 @@
 @media (width < 740px) {
 
     .breadcrumbs {
-        margin-top: 16px;
+        margin-top: 8px;
     }
         .breadcrumbs__item {
-
+            font-size: 13px;
+            line-height: 20px;
         }
             .breadcrumbs__link {
 
@@ -66,8 +67,8 @@
             .breadcrumbs__item::after {
                 width: 16px;
                 height: 16px;
-                margin-left: 4px;
-                margin-right: 4px;
+                margin-left: 3px;
+                margin-right: 3px;
             }
 
             .breadcrumbs__item:last-child::after {

@@ -178,7 +178,7 @@
 @media (width < 740px) {
 
     .project {
-        margin-top: 32px;
+        margin-top: 16px;
         --project-cell-padding: 12px 0;
     }
 
@@ -186,8 +186,7 @@
         display: block;
     }
         .project__gallery {
-            /*height: 200px;*/
-            /*background: purple;*/
+
         }
             .project__stage {
 
