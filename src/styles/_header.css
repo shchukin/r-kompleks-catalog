@@ -35,7 +35,7 @@
                     width: 466px;
                     height: 46px;
                     background-image: url("../images/header-logo.png");
-                    background-size: contain;
+                    background-size: 466px 46px;
                     background-repeat: no-repeat;
                     background-position: center center;
                     text-indent: 200%;
