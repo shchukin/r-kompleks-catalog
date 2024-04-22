@@ -86,6 +86,7 @@
                     .header__logo {
                         width: 170px;
                         height: 17px;
+                        background-size: 170px 17px;
                     }
 
                     .header__site-link {
