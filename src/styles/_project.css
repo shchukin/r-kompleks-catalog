@@ -217,10 +217,10 @@
                         .project__stage .swiper-pagination-bullet::after {
                             content: "";
                             display: block;
-                            width: 7px;
-                            height: 7px;
+                            width: 14px;
+                            height: 2px;
                             background-color: #BDBDBD;
-                            border-radius: 50%;
+                            border-radius: 4px;
                             box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
                             transition: background-color var(--transition-hover);
                         }
