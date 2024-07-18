@@ -8,6 +8,8 @@
             display: block;
             width: 100%;
             height: auto;
+            aspect-ratio: 224/300;
+            object-fit: cover;
             background-image: var(--image-fallback);
             transition: filter var(--transition-hover);
         }
